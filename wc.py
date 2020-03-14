@@ -27,13 +27,10 @@ while 1:
 
     if order == '-c':
         wf.c(path, target, file_extension, model)
-        break
     elif order == '-w':
         wf.w(path, target, file_extension, model)
-        break
     elif order == '-l':
         wf.l(path, target, file_extension, model)
-        break
     elif order == '-a':
         wf.a(path, target, file_extension, model)
     elif order == '-x':
